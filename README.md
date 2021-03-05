@@ -6,10 +6,10 @@ READ FIRST: This repo only contains the code. To get the all of the files includ
 ## Demo
 Please run the *run.py* script to test the pipeline. 
 - Make sure the necessary dependencies are installed (they are specified in the requirements.txt).
-- Please make sure you have the dataset in parquet file, or download it from the link above.
+- Please make sure you have the dataset in parquet file, or download it from [here](https://drive.google.com/file/d/1MsujXhBpXXvp2apTXA4ruaSdEmalKC4k/view?usp=sharing)). 
 
 Alternatively, you can test the pipeline using the *pipeline_jupyter.ipynb* Notebook provided. 
-- Make sure you upload the *ratings.parquet.gzip* file stored in the *./data/* folder
+- Make sure you upload the *ratings.parquet.gzip* file stored in the *./data/* folder [here](https://drive.google.com/file/d/1MsujXhBpXXvp2apTXA4ruaSdEmalKC4k/view?usp=sharing)).
 
 ## Overview
 kueski_data_pipeline is a small python app to extract 2 features from the MovieLens Dataset. 2 Classes are provided:
