@@ -1,7 +1,7 @@
 # Kueski Data Pipeline
 Simple pipeline to extract 2 different features from the MovieLens dataset.
 
-READ FIRST: This repo only contains the code. To get the all of the files including the Input Datasets (parquet and csv) and output Datasets, please download the following .zip: https://drive.google.com/file/d/1WsnONcNCGpBWbfRazLJ88EKHW9CNgaj0/view?usp=sharing. If you wish to only see an pipeline example using the code, please open the *pipeline_jupyter.ipynb* notebook.
+READ FIRST: This repo only contains the code. To get the all of the files including the Input Datasets (parquet and csv) and output Datasets, please download the following [zip](https://drive.google.com/file/d/1WsnONcNCGpBWbfRazLJ88EKHW9CNgaj0/view?usp=sharing). If you wish to only see an pipeline example using the code, please open the *pipeline_jupyter.ipynb* notebook. Finally if you want to see only the output files produced by the code, download them [here](https://drive.google.com/file/d/1epMuslS3uNRQse9CxAAtLbB7FoReIIEK/view?usp=sharing)
 
 ## Demo
 Please run the *run.py* script to test the pipeline. 
