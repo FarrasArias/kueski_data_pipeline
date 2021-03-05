@@ -1,0 +1,15 @@
+certifi==2020.12.5
+h5py @ file:///opt/concourse/worker/volumes/live/ca975206-a8f5-4947-64c0-5af2e33e601d/volume/h5py_1593454180658/work
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numexpr==2.7.2
+numpy @ file:///opt/concourse/worker/volumes/live/5572694e-967a-4c0c-52cf-b53d43e72de9/volume/numpy_and_numpy_base_1603491881791/work
+pandas==1.2.3
+pyarrow==3.0.0
+python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
+pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+six @ file:///opt/concourse/worker/volumes/live/5b31cb27-1e37-4ca5-6e9f-86246eb206d2/volume/six_1605205320872/work
+tables==3.6.1
+
+numpy~=1.19.2
