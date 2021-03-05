@@ -1,6 +1,8 @@
 # Kueski Data Pipeline
 Simple pipeline to extract 2 different features from the MovieLens dataset.
 
+READ FIRST: This repo only contains the code. To get the all of the files including the Input Datasets (parquet and csv) and output Datasets, please download the following .zip: https://drive.google.com/file/d/1WsnONcNCGpBWbfRazLJ88EKHW9CNgaj0/view?usp=sharing. If you wish to only see an pipeline example using the code, please open the *pipeline_jupyter.ipynb*.
+
 ## Demo
 Please run the *run.py* script to test the pipeline. 
 - Make sure the necessary dependencies are installed (they are specified in the requirements.txt).
@@ -25,4 +27,4 @@ The whole process takes around 130-150 seconds to compute (<3min), which shows a
 
 Several improvements could still be made, which are listed now:
 - The number datatypes are all float64, which requires a lot of space. The ratings column could be stored as a float16 dtype.
-- Numpy is supposed to be faster, specially whan vectorizing functions. Perhaps with more time a numpy-based pipeline could improve performance further.
+- Numpy is supposed to be faster, specially when vectorizing functions. Perhaps with more time a numpy-based pipeline could improve performance further.
